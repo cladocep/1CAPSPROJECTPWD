@@ -6,6 +6,7 @@ Program ini di lengkapi fitur:
 - CRUD (Create, Read, Update, Delete) data pasien
 - Pencarian pasien berdasarkan nama/layanan
 - Rekomendasi layanan & skincare sesuai umur pasien
+- Matrix Korelasi Data pasien
 - Menu interaktif yang user-friendly
 
 # Cara menjalankan 
