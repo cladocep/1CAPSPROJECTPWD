@@ -5,6 +5,7 @@ from features.visualizeBC import viz_kategorikal, viz_numerik, viz_produk, viz_b
 from features.crudBC import tambah_pasien, update_pasien, hapus_pasien
 from features.searchBC import cari_data
 from features.recommendBC import rekomendasi
+from features.Matrix_korelasi import plot_correlation_heatmap
 from utils.helpersBC import pause
 
 def main():
@@ -29,7 +30,8 @@ def main():
             print("12. Hapus pasien")
             print("13. Cari data")
             print("14. Rekomendasi layanan")
-            print("15. Keluar")
+            print("15. Matrix Korelasi Data Pasien")
+            print("0. Keluar")
             
             
             pilihan = input("Masukkan pilihan Anda (1-15): ")
@@ -63,6 +65,8 @@ def main():
             elif pilihan == "14":
                 rekomendasi();pause()
             elif pilihan == "15":
+                plot_correlation_heatmap(engine);pause()
+            elif pilihan == "0":
                 print("Terimakasih telah menggunakan applikasi ini");break
                 
     finally:
