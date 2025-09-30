@@ -5,7 +5,7 @@ from features.visualizeBC import viz_kategorikal, viz_numerik, viz_produk, viz_b
 from features.crudBC import tambah_pasien, update_pasien, hapus_pasien
 from features.searchBC import cari_data
 from features.recommendBC import rekomendasi
-from features.Matrix_korelasi import plot_correlation_heatmap
+from Matrix_korelasi import plot_correlation_heatmap
 from utils.helpersBC import pause
 
 def main():
